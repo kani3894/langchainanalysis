@@ -1,0 +1,180 @@
+Technical Documentation for LangChain Analysis Project
+Overview
+The LangChain Analysis project is a minimal document analyzer that uses a FastAPI backend for processing and a Streamlit frontend for user interaction. Users can upload text (.txt) and PDF (.pdf) documents which are sent to the backend for analysis. The backend leverages LangChain and OpenAI to perform tone analysis and key message extraction, then returns the results to the frontend for display.
+
+This document is divided into two phases:
+
+Phase 1: The current implementation handling single-file uploads.
+
+Phase 2: Planned enhancements to support large-scale processing, including batch processing of multiple files.
+
+Phase 1: Current Implementation
+1. streamlit_app.py
+Purpose:
+Provides the user interface using Streamlit.
+
+Key Responsibilities:
+
+Displays project title and file size limitations.
+
+Enables users to upload .txt or .pdf files.
+
+Sends the uploaded file as a POST request to the backend endpoint (/analyze_file).
+
+Displays the analysis result in a formatted code block.
+
+Notable Code:
+
+python
+Copy
+if uploaded_file is not None:
+    if st.button("Analyze"):
+        files = {"file": uploaded_file.getvalue()}
+        response = requests.post("http://localhost:8000/analyze_file", files=files)
+        print(response.text)  # Debugging: check the response content
+        if response.status_code == 200:
+            response_text = response.text
+            st.code(response_text)
+        else:
+            st.error("Error: " + response.json().get("error", "Unknown error"))
+2. app.py (FastAPI Backend)
+Purpose:
+Acts as the API backend for document analysis.
+
+Key Responsibilities:
+
+Defines endpoints such as /analyze_file to process file uploads.
+
+Validates file types and sizes.
+
+Reads file content and sends it to LangChain for analysis (tone and key message extraction).
+
+Constructs and returns a JSON response with analysis data.
+
+Example Snippet:
+
+python
+Copy
+@app.post("/analyze_file")
+async def analyze_file(file: UploadFile = File(...)):
+    logging.info("Receiving file...")
+    content = await file.read()
+    logging.info(f"Detected file type: {file.content_type}")
+    if file.content_type not in ['application/pdf', 'text/plain']:
+        logging.error("Unsupported file type.")
+        return JSONResponse(status_code=400, content={"error": "Unsupported file type."})
+    # Process file content, perform analysis
+    tone = llm("Analyze the tone: " + content.decode())
+    key_message = llm("Summarize the key message: " + content.decode())
+    response_data = {"tone": tone, "key_message": key_message}
+    return response_data
+3. requirements.txt
+Purpose:
+Lists all project dependencies, such as:
+
+streamlit
+
+fastapi
+
+uvicorn
+
+requests
+
+langchain
+
+Additional libraries as needed (e.g., python-dotenv).
+
+4. README.md
+Purpose:
+Provides an overview, setup instructions, and usage guidelines for the project.
+
+Phase 2: Large-Scale Batch Processing and Analysis
+In Phase 2, the goal is to extend the project to handle larger workloads and batch processing. The key objectives for this phase are:
+
+Objectives
+Batch Processing of Multiple Files:
+
+Capacity:
+Support the upload and processing of multiple files simultaneously (e.g., up to 60 files).
+
+File Size & Structure:
+Each file is expected to be relatively small (e.g., an average of 5 pages), but the system must handle large batches without performance degradation.
+
+Scalable File Processing Architecture:
+
+Asynchronous Processing:
+Implement asynchronous I/O for file reading and processing, ensuring that multiple files can be handled concurrently.
+
+Chunking & Aggregation:
+For larger files or batches, break the documents into manageable chunks and process them in parallel. After individual analysis, aggregate the results to provide comprehensive insights.
+
+Queue-Based Processing:
+Consider integrating a task queue (e.g., Celery, RabbitMQ) to manage heavy loads and allow for distributed processing if needed.
+
+Enhanced Analysis:
+
+Individual and Aggregated Insights:
+The system will not only analyze each file individually (extracting tone and key messages) but will also provide summary statistics or aggregated insights across the batch. This may include overall sentiment trends, common keywords, or aggregated token usage.
+
+Result Storage & Retrieval:
+Optionally, store intermediate results in a database to allow for asynchronous analysis, later retrieval, and further processing.
+
+Proposed Changes
+Streamlit Frontend Enhancements:
+
+Multi-File Uploader:
+Replace the single file uploader with a multi-file uploader component:
+
+python
+Copy
+uploaded_files = st.file_uploader("Upload .txt or .pdf files", type=["txt", "pdf"], accept_multiple_files=True)
+Batch Analysis Trigger:
+Modify the "Analyze" button handler to loop through all uploaded files, or package them together in a batch request.
+
+Backend Endpoint Modifications:
+
+New Endpoint or Modified /analyze_file:
+Create a new endpoint (e.g., /analyze_batch) or update the existing endpoint to handle multiple files. This endpoint should:
+
+Iterate through each file in the batch.
+
+Validate each file’s type and size.
+
+Process files concurrently using asynchronous programming constructs (e.g., asyncio.gather).
+
+Optionally aggregate analysis results.
+
+Example Pseudocode:
+
+python
+Copy
+@app.post("/analyze_batch")
+async def analyze_batch(files: List[UploadFile] = File(...)):
+    results = await asyncio.gather(*(process_file(file) for file in files))
+    aggregated_results = aggregate_results(results)
+    return aggregated_results
+Performance & Scalability Considerations:
+
+Memory Management:
+Ensure that files are processed in a memory-efficient way, especially when dealing with large batches.
+
+Task Queues:
+For heavy processing, consider offloading tasks to a background worker system.
+
+Result Aggregation:
+Develop a strategy to combine individual file analysis results into a single, coherent response for the user.
+
+Future Roadmap
+Integration with Cloud Services:
+Explore cloud-based processing (e.g., AWS Lambda, Google Cloud Functions) for scaling out the analysis tasks.
+
+User Interface Improvements:
+Provide progress indicators or real-time updates in the Streamlit UI while the batch analysis is underway.
+
+Advanced Analytics:
+Incorporate additional natural language processing (NLP) capabilities, such as topic modeling or named entity recognition, for deeper insights across multiple documents.
+
+Conclusion
+The Phase 1 implementation of the LangChain Analysis project provides a simple, functional system for analyzing individual document uploads via a FastAPI backend and displaying results in a Streamlit interface.
+
+Phase 2 aims to extend this capability to support large-scale processing of multiple files simultaneously. By introducing batch processing, asynchronous file handling, and result aggregation, the system will be capable of handling workloads such as 60 files (each of approximately 5 pages) and performing comprehensive analysis on the entire batch. These enhancements will not only improve scalability but also provide richer insights for users dealing with larger document collections.
