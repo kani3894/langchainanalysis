@@ -1,0 +1,513 @@
+
+--- GPT RESPONSE ---
+### Chunk 1
+- **Summary**: Yash Ram Deshmukh's contact information and location are listed at the beginning of the transcript.
+- **Microtags**: contact information, Pune, Maharashtra, India, email, mobile
+- **Start-End**: Lines 1-2
+- **Text**: 
+  ```
+  Yash  Ram  Deshmukh   Linkdin  | GitHub  Email  :- yashd7200@gmail.com   Pune,  Maharashtra,  India  Mobile  :- +91 8975315501
+  ```
+
+### Chunk 2
+- **Summary**: The profile summary describes Yash as a proactive Technical Support Engineer with expertise in AWS services, system platforms, networking, and scripting. 
+- **Microtags**: profile summary, Technical Support Engineer, AWS services, Windows, Linux, networking, scripting
+- **Start-End**: Lines 3-3
+- **Text**: 
+  ```
+  Profile Summary   Proactive Technical Support Engineer with expertise in AWS services, Windows and Linux systems, networking, and scripting.
+  ```
+
+### Chunk 3
+- **Summary**: Yash is proficient in troubleshooting, automation, system integration, incident management, and monitoring.
+- **Microtags**: troubleshooting, automation, system integration, incident management, monitoring
+- **Start-End**: Lines 4-4
+- **Text**: 
+  ```
+  Proficient in troubleshooting, automation, system integration, incident management, and monitoring.
+  ```
+
+### Chunk 4
+- **Summary**: Yash has strong skills in technical support, security, compliance, and regulatory adherence.
+- **Microtags**: technical support, security, compliance, regulatory adherence
+- **Start-End**: Lines 5-5
+- **Text**: 
+  ```
+  Strong skills in technica l  suppor t, security, compliance, and regulatory adherence.
+  ```
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary**: The speaker shows eagerness to join dynamic support teams and improve cloud operations, maintaining current knowledge of industry trends.
+
+- Microtags: eager, dynamic support, cloud operations, industry trends
+- Start-End Line Numbers: 1-1
+- Actual Text: 
+  ```
+  Eager to contribute to dynamic support teams and enhance cloud operations  while staying updated on industry trends.
+  ```
+
+### Chunk 2
+**Summary**: The speaker outlines their academic background, including ongoing B.Tech studies in Computer Engineering at Government College of Engineering, Jalgaon, with a CGPA of 7.62, and past HSC studies in Computer Science at Nahata College, Bhusawal.
+
+- Microtags: academic qualifications, B.Tech, Computer Engineering, CGPA, HSC
+- Start-End Line Numbers: 3-7
+- Actual Text: 
+  ```
+  Academic  Qualifications   Government College Of Engineering, Jalgaon        [2020 –2024]   B.Tech (Computer Engineering)          CGPA -7.62    P.O.
+  
+  Nahata College, Bhusawal          [2019 - 2020]   HSC (Computer Science)           Percentage – 75.54
+  ```
+
+### Chunk 3
+**Summary**: Skills and interests are enumerated, including knowledge of cloud platforms, operating systems, networking, and programming languages and scripts.
+
+- Microtags: skills, interests, cloud platforms, operating systems, networking, programming
+- Start-End Line Numbers: 8-10
+- Actual Text: 
+  ```
+  Skills and Interests   • Cloud Platforms : AWS  , Google Cloud, Azure   • Operating Systems : Ubuntu, CentOS, Amazon Linux , UNIX,  Windows   • Networking : IP addressing, subnetting, routing, NAT Gateway, Internet Gateway , TCP, TCP/IP , DHCP , DNS, F irewalls   • Programming & Scripting : Shell scripting, Java, Python , PowerShell .
+  ```
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary:** The transcript lists various virtualization and automation tools, along with some basic knowledge areas such as Docker, Kubernetes, Ansible, Apache, CI/CD, and automation.
+- **Microtags:** Virtualization, Automation, Docker, Kubernetes, Ansible, Apache
+- **Lines:** 1-1
+- **Text:** "• Virtualization & Automation Tools : Docker (Certified), Basic Kubernetes, Basic Ansible, Apache, CI/CD, Automation ."
+
+### Chunk 2
+**Summary:** The transcript mentions familiarity with database technologies, specifically MySQL and PostgreSQL, as well as tools related to version control and API testing such as Git, GitHub, and Postman.
+- **Microtags:** Database, MySQL, PostgreSQL, Version Control, Git, GitHub, Postman
+- **Lines:** 2-2
+- **Text:** "• Database : MySQL, PostgreSQL   • Tools : Git, GitHub, Postman , Version Control ."
+
+### Chunk 3
+**Summary:** The transcript details soft skills including analytical skills, communication (verbal and written), collaboration, and stakeholder interaction.
+- **Microtags:** Soft Skills, Analytical, Communicate, Collaborate, Verbal Communication, Written Communication
+- **Lines:** 3-3
+- **Text:** "• Soft Skill : - Soft Skills: Analytical,  Communicate , Analytical Skills, Collaborat e, Verbal Communication Skills, Written  Communication Skills, Stakeholders"
+
+### Chunk 4
+**Summary:** Describes the work experience as an SDE intern at Bluestock Fintech for two months, where a project was co-led to deliver a fintech solution following coding best practices and SDLC processes.
+- **Microtags:** Work Experience, SDE Intern, Bluestock Fintech, Fintech Solution, Coding Best Practices, SDLC
+- **Lines:** 4-5
+- **Text:** "Work Experience   SDE Intern |  Bluestock Fintech : -  Duration : 2 months    • Co-led a project to deliver a fintech solution, adhering to coding best practices and SDLC processes ."
+
+--- GPT RESPONSE ---
+### Chunk 1
+
+**Summary:** The speaker discusses gaining experience in modern cloud tools and methodologies.
+
+- Microtags: cloud tools, methodologies, gained experience
+- Start and End Line: 1–1
+- Chunk Text: 
+  ```
+  • Gained experience in modern cloud tools and methodologies.
+  ```
+
+### Chunk 2
+
+**Summary:** The speaker highlights developing strong collaborative and communication skills to ensure smooth project execution.
+
+- Microtags: communication skills, collaborative, project execution, developed
+- Start and End Line: 3–3
+- Chunk Text:
+  ```
+  • Developed strong collaborative and communication skills, ensuring smooth project execution .
+  ```
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary**: The transcript describes a web development internship at Oasis Infobyte, highlighting a one-month duration, the creation of responsive and user-friendly interfaces, and a focus on modern web technologies.
+
+**Microtags**: Web Development, Internship, Oasis Infobyte, Responsive Interfaces, Modern Technologies
+
+**Line Numbers**: 1-2  
+
+**Chunk Text**:
+```
+Web Development Intern | Oasis Infobyte : -     Duration : 1 months   • Built responsive and user -friendly interfaces, focusing on modern web technologies .
+```
+
+---
+
+### Chunk 2
+**Summary**: The internship experience included demonstrating expertise in delivering quality results under tight deadlines.
+
+**Microtags**: Expertise, Quality Results, Tight Deadlines  
+
+**Line Numbers**: 3-3  
+
+**Chunk Text**:
+```
+• Demonstrated expertise in delivering quality results under tight deadlines
+```
+
+---
+
+### Chunk 3
+**Summary**: The intern worked effectively in a team setting and improved both verbal and written communication skills.
+
+**Microtags**: Team Setting, Communication Skills, Verbal, Written
+
+**Line Numbers**: 4-4  
+
+**Chunk Text**:
+```
+• Worked effectively in a team setting, improving verbal and written communication skills.
+```
+
+--- GPT RESPONSE ---
+### Chunk 1
+
+**Summary:** The excerpt discusses the development of an eCommerce website using the AWS LAMP stack, utilizing services like EC2, RDS, VPC, and IAM.
+
+**Microtags:** eCommerce, AWS, LAMP stack, EC2, RDS, VPC, IAM
+
+**Start and End Line Numbers:** 1–2
+
+**Actual Chunk Text:**
+```
+Projects   Multi -AZ-Architecture -In Ecommerce:  AWS  | EC2 | RDS  | VPC  | IAM  | Cognito  | WordPress  | S3 | MYSQL  | PHP  |  ❖ Developed an eCommerce website using AWS LAMP stack with EC2, RDS, VPC, and IAM .
+```
+
+---
+
+### Chunk 2
+
+**Summary:** The text highlights the implementation of Multi-AZ architecture designed to enhance high availability and fault tolerance.
+
+**Microtags:** Multi-AZ, architecture, high availability, fault tolerance
+
+**Start and End Line Numbers:** 3–3
+
+**Actual Chunk Text:**
+```
+❖  Implemented  Multi -AZ architecture for high availability and fault tolerance.
+```
+
+---
+
+### Chunk 3
+
+**Summary:** Load balancers, auto scaling, and Elastic IP were utilized to achieve scalability and reliability for the system.
+
+**Microtags:** Load Balancers, Auto Scaling, Elastic IP, scalability, reliability
+
+**Start and End Line Numbers:** 4–4
+
+**Actual Chunk Text:**
+```
+❖ Used Load Balancers, Auto Scaling, and Elastic IP for scalability and reliability .
+```
+
+--- GPT RESPONSE ---
+### Chunk 1
+
+**Summary**: The transcript describes integrating Cognito for secure user authentication and access control within a platform. 
+
+**Microtags**: Integrated Cognito, secure authentication, access control
+
+**Lines**: 1-1
+
+**Chunk Text**: 
+```
+Integrated Cognito for secure user authentication and access control .
+```
+
+---
+
+### Chunk 2
+
+**Summary**: The platform developed uses AWS technologies to enable scalable video sharing, allowing users to upload videos via a web interface.
+
+**Microtags**: Video sharing, AWS S3, web interface, scalable platform, user uploads
+
+**Lines**: 3-4
+
+**Chunk Text**: 
+```
+Video Sharing Platform : AWS  |S3 | Lambda  | Elastic Transcoder  | SNS | Cognito  | IAM  | HTML  | CSS | JavaScript  | Python   ❖ Developed a scalable video -sharing platform enabling users to upload videos to AWS S3 via a web interface.
+```
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary:** The transcript describes the integration of AWS Elastic Transcoder to automate the conversion of video to audio, aiming to improve accessibility.
+
+**Microtags:** AWS Elastic Transcoder, automate, video-to-audio, enhanced accessibility
+
+**Lines:** 1–1
+
+**Text:**
+```
+Integrated AWS Elastic Transcoder to automate video -to-audio conversion for enhanced accessibility .
+```
+
+---
+
+### Chunk 2
+**Summary:** The focus of this excerpt is on implementing security best practices and ensuring compliance with data protection regulations.
+
+**Microtags:** security best practices, compliance, data protection regulations
+
+**Lines:** 2–2
+
+**Text:**
+```
+Implemented security best practices and ensured compliance with data protection regulations.
+```
+
+---
+
+### Chunk 3
+**Summary:** AWS SNS was used to provide real-time notifications to users regarding upload and conversion status updates.
+
+**Microtags:** AWS SNS, real-time notifications, user notifications, upload status, conversion status
+
+**Lines:** 3–3
+
+**Text:**
+```
+Used AWS SNS for real -time user notifications on upload and conversion status .
+```
+
+--- GPT RESPONSE ---
+### Chunk 1:
+- **Summary**: Securing user authentication and access control with AWS Cognito and IAM roles are highlighted.
+- **Microtags**: Secured user authentication, access control, AWS Cognito, IAM roles.
+- **Start and End Lines**: 1–1
+- **Chunk Text**:   
+  "Secured user authentication and access control with AWS Cognito and IAM roles."
+
+### Chunk 2:
+- **Summary**: Describes the implementation of feature flags in a clothing e-commerce website using various technologies.
+- **Microtags**: Feature flags, e-commerce website, Spring Boot, React JS, Tailwind CSS, MySQL, JWT Authentication, RAZORPAY, REACT MUI.
+- **Start and End Lines**: 2–3
+- **Chunk Text**:  
+  "Implementation of Feature Flags in an E-commerce Website: Spring boot |React JS |Tailwind CSS |MySQL |JWT Authentication | RAZORPAY | REACT MUI ❖ This project includes the comprehensive integration of feature flags into the clothing E-commerce website, empowering it with dynamic control over specific features."
+
+### Chunk 3:
+- **Summary**: The e-commerce website incorporates several functionalities including token-based authentication and others like product tracking and security enhancement.
+- **Microtags**: E-commerce website, Token-Based Authentication, product tracking, review and rating, incident management, compliance monitoring, security enhancement, troubleshooting.
+- **Start and End Lines**: 4–4
+- **Chunk Text**:  
+  "The e-commerce website integrates Token -Based Authentication, product tracking, review and rating handling, incident management, compliance monitoring, security enhancement, and troubleshooting."
+
+--- GPT RESPONSE ---
+Chunk 1:
+- Summary: The transcript mentions certifications related to programming and Java.
+- Microtags: Certification, Programming, Java
+- Lines: 1-1
+- Chunk text: "Certification"
+
+Chunk 2:
+- Summary: The transcript highlights a certification course specifically for programming in Java, offered by NPTEL.
+- Microtags: Programming, Java, NPTEL
+- Lines: 2-2
+- Chunk text: "Programming in Java (NPTEL )"
+
+Chunk 3:
+- Summary: The transcript lists topics such as Java Spring, Spring Boot, Docker, and Microservices.
+- Microtags: Java Spring, Spring Boot, Docker, Microservices
+- Lines: 3-3
+- Chunk text: "Java Spring, Spring Boot , Docker and Microservices"
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary:** The transcript mentions a "JavaScript Practical Crash Course" offered on Udemy.  
+**Microtags:** JavaScript, Practical, Crash Course, Udemy  
+**Lines:** 1-1  
+**Text:**  
+JavaScript  Practical  Crash  Course  (Udemy)                                        4.
+
+### Chunk 2
+**Summary:** A course titled "Front End Web Development" is listed as available on Udemy.  
+**Microtags:** Front End, Web Development, Udemy  
+**Lines:** 2-2  
+**Text:**  
+Front  End Web Development (Udemy )
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary:** The chunk provides an overview of various features and components related to Docs Cloud API, such as templates, messages, and interactive elements, and mentions support tools and login information.  
+**Microtags:** Docs Cloud API, messages, templates, interactive, support, login  
+**Lines:** 1–5  
+**Text:**  
+Docs Cloud API Messages Template Flows Templates Cloud API Overview Get Started Get Started for Solution Partners Get Started for Tech Providers Multi-Partner Solutions Messages Address Audio Contacts Document Image Interactive Call-To-Action URL Flow Interactive List Interactive Reply Buttons Location Location Request Reaction Sticker Template Auth Templates Template Library Catalog Templates Coupon Templates LTO Templates Media card carousel templates MPM Templates Product Card Carousel Templates SPM template messages Flows Templates Text Video Read Receipts Block Users Phone Numbers Webhooks Sell Products & Services Payments API - SG Payments API - India Reference Support Docs Tools Support Search  Log In
+
+### Chunk 2
+**Summary:** This section announces upcoming changes to the WhatsApp Business Platform's pricing model, specifically moving from a conversation-based model to a per-message charge for template messages starting July 1, 2025.  
+**Microtags:** WhatsApp Business, pricing model, per-message, template messages, July 1, 2025  
+**Lines:** 5–7  
+**Text:**  
+On This P age  WhatsApp Business Platform We are making changes t o the WhatsApp Business Platform pricing model.
+
+Effectiv e July 1, 2025 for all businesses on our platform: The conv ersation-based pricing model will be depr ecated We will char ge per-message for template messages  instead of per-conv ersation Utility templates sent within an open cust omer ser vice window will be fr ee See Pricing Updates on the WhatsApp Business Platform  for additional details.
+
+### Chunk 3
+**Summary:** A brief mention about the ability to quickly build and send WhatsApp Flow as a template message for purposes such as marketing campaigns.  
+**Microtags:** WhatsApp Flow, template message, marketing campaign  
+**Lines:** 7–8  
+**Text:**  
+Sending a Flow You can quickly build Whatsapp Flow in the playground and send it as as a template message, for example as part of a marketing campaign.
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary:** The speaker discusses the creation and sending of a WhatsApp Flow, mentioning it can be sent as a normal message and provides a suggestion to learn more about message details.  
+**Microtags:** WhatsApp Flow, normal message, message types, limits, timing  
+**Start and End Lines:** 1–2  
+**Chunk Text:**  
+Or you can create a WhatsApp Flow and send it either as a normal message.  
+
+Go her e to read mor e about message types, limits, and timing.
+
+---
+
+### Chunk 2
+**Summary:** Instructions are provided for sending a WhatsApp Flow as a template, including the first step of template creation.  
+**Microtags:** WhatsApp Flow, template, create a template  
+**Start and End Lines:** 3–3  
+**Chunk Text:**  
+To send the Flow as a template,  irst you need to create a template.
+
+--- GPT RESPONSE ---
+### Chunk 1
+
+**Summary**: The transcript provides a sample request using the Curl command to create a message template through Facebook's API. The sample includes headers for authorization and content type, specifying details like the template's name, language, category, and components.
+
+**Microtags**: Curl command, POST request, Authorization, Content-Type, message template
+
+**Start-End Line Numbers**: 1-4
+
+**Chunk Text**:
+```
+Here is an example request: curl -i -X POST \ https://graph.facebook .com/v16.0/<waba-id>/message_templates \ -H 'Authorization: Bearer TOKEN' \ -H 'Content-Type: application/json' \ -d' { 
+```
+
+### Chunk 2
+
+**Summary**: The message template example includes a name, language, and category. It also describes the components like the body text and buttons, specifying a particular button type and related actions.
+
+**Microtags**: message template, name, language, category, components, BUTTONS
+
+**Start-End Line Numbers**: 5-11
+
+**Chunk Text**:
+```
+"name": "example_template_name" , "language" : "en_US", "category" : "MARKETING" , "components" : [ { "type": "body", "text": "This is a flows as template demo" }, { "type": "BUTTONS" , "buttons" : [ { "type": "FLOW", "text": "Sign up" , "flow_action" : "navigate" , "navigate_screen" : "WELCOME_SCREEN"
+```
+
+### Chunk 3
+
+**Summary**: The excerpt describes the Flow JSON element, noting it as a string that defines the flow's layout linked to the template. It also mentions that the Flow JSON can be generated in the Flow playground.
+
+**Microtags**: Flow JSON, string, layout, Flow playground, template
+
+**Start-End Line Numbers**: 12-17
+
+**Chunk Text**:
+```
+"flow_json" : "{ \"version\": \"3.1\", \"screens\": [ { } ] } ] }' PropertyProperty TypeType DescriptionDescription buttons.flow_json String The Flow JSON encoded as string. Specifies the layout of the flow to be attached to the Template. The Flow JSON can be quickly generated in the Flow playground .
+```
+
+--- GPT RESPONSE ---
+### Chunk 1
+
+**Summary:** The excerpt refers to the JSON documentation for 'Flow Property' and describes restrictions concerning the use of the 'flow_id' attribute.
+
+**Microtags:** JSON, Flow Property, flow_id, restrictions, documentation
+
+**Start and End Lines:** 1-1
+
+**Chunk Text:**  
+For full reference see Flow PropertyProperty TypeType DescriptionDescription JSON documentation Cannot be used if the flow_id  attribute is provided.
+
+---
+
+### Chunk 2
+
+**Summary:** The text states that only one parameter is allowed, and highlights that the 'flow_id' string identifier cannot be used if the 'flow_json' attribute is present.
+
+**Microtags:** parameters, flow_id, flow_json, restrictions, string
+
+**Start and End Lines:** 2-2
+
+**Chunk Text:**  
+Only one of the parameters is allowed.
+
+**Start and End Lines:** 3-3
+
+**Chunk Text:**  
+buttons.flow_id String id of a flow Cannot be used if the flow_json attribute is provided.
+
+--- GPT RESPONSE ---
+### Chunk 1
+**Summary:** This section appears to mention the restriction concerning the parameters, stating that only one parameter is permitted.  
+**Microtags:** parameters, allowed, restricted  
+**Start and End Line Numbers:** 1–1  
+**Chunk Text:**  
+```
+Only one of the parameters is allowed.
+```
+
+---
+
+### Chunk 2
+**Summary:** This part discusses specific attributes related to navigating screen buttons, mentioning a string and JSON screen name associated with it.  
+**Microtags:** buttons, navigate, screen, String, Flow, JSON  
+**Start and End Line Numbers:** 2–3  
+**Chunk Text:**  
+```
+buttons.navigate_screen String Flow JSON screen name.
+```
+
+---
+
+### Chunk 3
+**Summary:** This sentence outlines a requirement for a specific action regarding flow, specifically when navigating or involving data exchange.  
+**Microtags:** required, flow_action, navigate, data_exchange  
+**Start and End Line Numbers:** 4–4  
+**Chunk Text:**  
+```
+Required if flow_action is navigate buttons.flow_action Enum navigate  or data_exchange .
+```
+
+--- GPT RESPONSE ---
+### Chunk 1
+- **Summary:** Instructions are given to ensure a template is approved rather than pending and includes a sample response format for a template's status.
+- **Microtags:** template, pending, approved, status, reviews
+- **Start and End Line Numbers:** 1–3
+- **Chunk Text:**
+  ```
+  Default value is navigate See here for more details.
+
+  Sample Response {   "id": "<template-id>" ,   "status" : "PENDING" ,   "category" : "MARKETING" } Ensur e that y our template passes all r equir ed reviews so that status  is APPROVED  instead of PENDING .
+  ```
+
+### Chunk 2
+- **Summary:** The transcript provides a detailed curl request example for sending a template message using WhatsApp via Facebook's API.
+- **Microtags:** template message, POST request, WhatsApp, Facebook API, curl
+- **Start and End Line Numbers:** 4–21
+- **Chunk Text:**
+  ```
+  Now you can send a template message with a  low using the following request: curl -X  POST \  'https://graph.facebook.com/v16.0/FROM_PHONE_NUMBER_ID/messages'  \  -H 'Authorization: Bearer ACCESS_TOKEN'  \  -H 'Content-Type: application/json'  \  -d '{   "messaging_product": "whatsapp",   "recipient_type": "individual",   "to": "PHONE_NUMBER",   "type": "template",   "template": {     "name": "TEMPLATE_NAME",     "language": {       "code": "LANGUAGE_AND_LOCALE_CODE"     },     "components": [       {         "type": "button",         "sub_type": "flow",         "index": "0",         "parameters": [           {             "type": "action",             "action": {              "flow_token": "FLOW_TOKEN",   //optional, default is "unused"               "flow_action_data": {                  ...               }   // optional, json object with the data payload for the first scree             }           }         ]       }     ]   } }'
+  ```
+
+### Chunk 3
+- **Summary:** An example of a sample response is shown for a WhatsApp messaging product including fields for contacts and messages.
+- **Microtags:** sample response, WhatsApp, messaging product, contacts, messages
+- **Start and End Line Numbers:** 22–27
+- **Chunk Text:**
+  ```
+  Sample Response {   "messaging_product" : "whatsapp" ,   "contacts" : [     {       "input": "<phone-number>" ,       "wa_id": "<phone-number>"     }   ],   "messages" : [     {       "id": "<message-id>"     }   ] }
+  ```
+
+### Chunk 4
+- **Summary:** General information about Meta AI, its technologies, support options, and policies are highlighted, including links to careers and privacy policy details.
+- **Microtags:** Meta AI, technologies, support, policies, careers, privacy
+- **Start and End Line Numbers:** 28–34
+- **Chunk Text:**
+  ```
+  Build with Meta AI Meta Horizon OS Social technologies News Meta for Developers Blog Success storiesSupport Developer support Bug tool Platform status Developer community forum Report an incidentTerms and policies Responsible platform initiatives Platform terms Developer policies © 2025  Meta About Careers Privacy Policy Cookies Terms English (US)
+  ```
