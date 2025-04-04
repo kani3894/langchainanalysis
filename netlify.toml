@@ -1,0 +1,12 @@
+[build]
+  publish = "public"
+  command = "streamlit run streamlit_app.py"
+
+[dev]
+  framework = "streamlit"
+
+[functions]
+  directory = "functions"
+
+[functions.environment]
+  PYTHON_VERSION = "3.8"
