@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import pandas as pd
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 st.title("DocSift: Minimal Document Analyzer")
 
@@ -14,22 +15,28 @@ uploaded_files = st.file_uploader("Upload .txt or .pdf files", type=["txt", "pdf
 
 if uploaded_files:
     if st.button("Analyze"):
-        for uploaded_file in uploaded_files:
-            # Corrected the files key and format to match FastAPI's expected input
+        def analyze_file(uploaded_file):
             files = {"files": (uploaded_file.name, uploaded_file.getvalue(), uploaded_file.type)}
-            response = requests.post("http://localhost:8000/analyze_file", files=files)
+            try:
+                response = requests.post("http://localhost:8000/analyze_file", files=files, timeout=(3.05, 60))
+                response.raise_for_status()
+                response_text = response.text.replace("\\n", "\n").replace("\n ", "\n\n")
+                return uploaded_file.name, response_text, None
+            except requests.exceptions.RequestException as e:
+                return uploaded_file.name, None, str(e)
 
-            if response.status_code == 200:
-                response_text = response.text
-                response_text = response_text.replace("\\n", "\n").replace("\n ", "\n\n")
-                st.markdown(f"### Results for {uploaded_file.name}")
-                st.markdown(response_text, unsafe_allow_html=True)
-
-                try:
-                    df = pd.read_csv("output.csv")
-                    st.write("### Analysis Results")
-                    st.dataframe(df)
-                except Exception as e:
-                    st.error(f"Failed to load CSV for {uploaded_file.name}: {e}")
-            else:
-                st.error(f"Error analyzing {uploaded_file.name}: " + response.json().get("error", "Unknown error"))
+        with ThreadPoolExecutor() as executor:
+            futures = {executor.submit(analyze_file, file): file for file in uploaded_files}
+            for future in as_completed(futures):
+                file_name, response_text, error = future.result()
+                if error:
+                    st.error(f"Error analyzing {file_name}: {error}")
+                else:
+                    st.markdown(f"### Results for {file_name}")
+                    st.markdown(response_text, unsafe_allow_html=True)
+                    try:
+                        df = pd.read_csv("output.csv")
+                        st.write("### Analysis Results")
+                        st.dataframe(df)
+                    except Exception as e:
+                        st.error(f"Failed to load CSV for {file_name}: {e}")
